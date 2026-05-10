@@ -80,13 +80,21 @@ If no category is given, infer it from the icon's function.
 
 ---
 
+## Design Reference Library
+
+Before designing any icon, consult **[REFERENCES.md](REFERENCES.md)** — it contains
+shape blueprints, path structures, and style notes for every Thmanyah category,
+sourced from Lucide, Tabler, Mingcute, and Phosphor.
+
+---
+
 ## Step-by-Step Process
 
 ### Step 1 — Design the icon mentally
 
 Before writing any code:
-1. Identify the visual concept. Look at real-world references to understand shape variations.
-2. Reduce to the simplest shape (1–3 paths maximum)
+1. **Check REFERENCES.md** for the target icon category — use existing path structures as shape blueprints
+2. Identify the visual concept and reduce to the simplest shape (1–3 paths maximum)
 3. Classify each path: **closed** (body) or **open** (handle/arc/line)
 4. Map all key points onto the 24×24 grid, ensuring centering at (12, 12)
 5. Note outer corners (3–4 px) vs inner corners (sharp/1 px)
